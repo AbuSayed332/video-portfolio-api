@@ -1,0 +1,77 @@
+video-portfolio-api/
+├── 📁 src/
+│   ├── 📁 modules/
+│   │   ├── 📁 portfolio/
+│   │   │   ├── portfolio.module.ts
+│   │   │   ├── portfolio.controller.ts
+│   │   │   ├── portfolio.service.ts
+│   │   │   ├── dto/
+│   │   │   │   ├── create-portfolio.dto.ts
+│   │   │   │   └── update-portfolio.dto.ts
+│   │   │   └── schemas/
+│   │   │       └── portfolio.schema.ts
+│   │   │
+│   │   ├── 📁 testimonials/
+│   │   │   ├── testimonials.module.ts
+│   │   │   ├── testimonials.controller.ts
+│   │   │   ├── testimonials.service.ts
+│   │   │   ├── dto/
+│   │   │   │   └── create-testimonial.dto.ts
+│   │   │   └── schemas/
+│   │   │       └── testimonial.schema.ts
+│   │   │
+│   │   ├── 📁 contact/
+│   │   │   ├── contact.module.ts
+│   │   │   ├── contact.controller.ts
+│   │   │   ├── contact.service.ts
+│   │   │   └── dto/
+│   │   │       └── contact-form.dto.ts
+│   │   │
+│   │   ├── 📁 skills/
+│   │   │   ├── skills.module.ts
+│   │   │   ├── skills.controller.ts
+│   │   │   ├── skills.service.ts
+│   │   │   └── schemas/
+│   │   │       └── skill.schema.ts
+│   │   │
+│   │   └── 📁 profile/
+│   │       ├── profile.module.ts
+│   │       ├── profile.controller.ts
+│   │       ├── profile.service.ts
+│   │       └── schemas/
+│   │           └── profile.schema.ts
+│   │
+│   ├── 📁 common/
+│   │   ├── dto/
+│   │   │   └── pagination.dto.ts
+│   │   ├── filters/
+│   │   │   └── http-exception.filter.ts
+│   │   ├── guards/
+│   │   │   └── api-key.guard.ts
+│   │   ├── interceptors/
+│   │   │   └── logging.interceptor.ts
+│   │   └── decorators/
+│   │       └── api-response.decorator.ts
+│   │
+│   ├── 📁 config/
+│   │   ├── database.config.ts
+│   │   ├── app.config.ts
+│   │   └── validation.schema.ts
+│   │
+│   ├── app.module.ts
+│   ├── app.controller.ts
+│   ├── app.service.ts
+│   └── main.ts
+│
+├── 📁 test/
+│   ├── app.e2e-spec.ts
+│   └── jest-e2e.json
+│
+├── package.json
+├── nest-cli.json
+├── tsconfig.json
+├── tsconfig.build.json
+├── .env
+├── .env.example
+├── .gitignore
+└── README.md
