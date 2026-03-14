@@ -21,7 +21,7 @@ async function bootstrap() {
   // CORS
   const corsOrigins = configService.get('CORS_ORIGIN')?.split(',') || ['http://localhost:3000'];
   app.enableCors({
-    origin: 'https://sourav-video-editor-portfolio.vercel.app',
+    origin: ['https://sourav-video-editor-portfolio.vercel.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'x-api-key'],
     credentials: true,
