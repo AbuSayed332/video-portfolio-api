@@ -1,7 +1,11 @@
 import { Controller, Get, Patch, Body, UseGuards, Post } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse, ApiSecurity } from '@nestjs/swagger';
 import { ProfileService } from './profile.service';
+<<<<<<< HEAD
 import { ApiKeyGuard } from '../../common/guards/api-key.guard';
+=======
+import { ApiKeyGuard } from '../../common/gurads/api-key.guard';
+>>>>>>> 13c3acdb88aed68b530b0b40f5855c1243fecd80
 import { Profile } from './schemas/profile.schema';
 
 @ApiTags('profile')

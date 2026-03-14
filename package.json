@@ -17,8 +17,12 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+<<<<<<< HEAD
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "seed": "ts-node -r tsconfig-paths/register src/scripts/seed-database.ts"
+=======
+    "test:e2e": "jest --config ./test/jest-e2e.json"
+>>>>>>> 13c3acdb88aed68b530b0b40f5855c1243fecd80
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
@@ -28,6 +32,10 @@
     "@nestjs/platform-express": "^11.0.1",
     "@nestjs/swagger": "^11.2.0",
     "@nestjs/throttler": "^6.4.0",
+<<<<<<< HEAD
+=======
+    "@nestjs/typeorm": "^11.0.0",
+>>>>>>> 13c3acdb88aed68b530b0b40f5855c1243fecd80
     "@types/bcryptjs": "^2.4.6",
     "@types/nodemailer": "^7.0.1",
     "bcryptjs": "^3.0.2",
@@ -38,9 +46,17 @@
     "helmet": "^8.1.0",
     "joi": "^18.0.1",
     "mongoose": "^8.18.1",
+<<<<<<< HEAD
     "nodemailer": "^7.0.6",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.1"
+=======
+    "mysql2": "^3.15.0",
+    "nodemailer": "^7.0.6",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "typeorm": "^0.3.26"
+>>>>>>> 13c3acdb88aed68b530b0b40f5855c1243fecd80
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",

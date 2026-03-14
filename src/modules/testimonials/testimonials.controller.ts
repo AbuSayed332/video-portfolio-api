@@ -12,7 +12,11 @@ import {
 import { ApiTags, ApiOperation, ApiResponse, ApiSecurity, ApiQuery } from '@nestjs/swagger';
 import { TestimonialsService } from './testimonials.service';
 import { CreateTestimonialDto } from './dto/create-testimonial.dto';
+<<<<<<< HEAD
 import { ApiKeyGuard } from '../../common/guards/api-key.guard';
+=======
+import { ApiKeyGuard } from '../../common/gurads/api-key.guard';
+>>>>>>> 13c3acdb88aed68b530b0b40f5855c1243fecd80
 
 @ApiTags('testimonials')
 @Controller('testimonials')

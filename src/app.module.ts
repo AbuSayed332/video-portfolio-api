@@ -12,7 +12,10 @@ import { TestimonialsModule } from './modules/testimonials/testimonials.module';
 import { SkillsModule } from './modules/skills/skills.module';
 import { ContactModule } from './modules/contact/contact.module';
 import { ProfileModule } from './modules/profile/profile.module';
+<<<<<<< HEAD
 import { AuthModule } from './modules/auth/auth.module';
+=======
+>>>>>>> 13c3acdb88aed68b530b0b40f5855c1243fecd80
 
 import { databaseConfig } from './config/database.config';
 import { validationSchema } from './config/validation.schema';
@@ -46,7 +49,10 @@ import { validationSchema } from './config/validation.schema';
     }),
 
     // Feature modules
+<<<<<<< HEAD
     AuthModule,
+=======
+>>>>>>> 13c3acdb88aed68b530b0b40f5855c1243fecd80
     PortfolioModule,
     TestimonialsModule,
     SkillsModule,

@@ -25,5 +25,8 @@ export const validationSchema = Joi.object({
   // Security
   ADMIN_API_KEY: Joi.string().required(),
   CORS_ORIGIN: Joi.string().default('http://localhost:3000'),
+<<<<<<< HEAD
   JWT_SECRET: Joi.string().optional(),
+=======
+>>>>>>> 13c3acdb88aed68b530b0b40f5855c1243fecd80
 });
