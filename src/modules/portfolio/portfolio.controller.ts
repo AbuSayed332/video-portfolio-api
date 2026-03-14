@@ -13,11 +13,8 @@ import { ApiTags, ApiOperation, ApiResponse, ApiSecurity, ApiParam, ApiQuery } f
 import { PortfolioService } from './portfolio.service';
 import { CreatePortfolioDto } from './dto/create-portfolio.dto';
 import { UpdatePortfolioDto } from './dto/update-portfolio.dto';
-<<<<<<< HEAD
+
 import { ApiKeyGuard } from '../../common/guards/api-key.guard';
-=======
-import { ApiKeyGuard } from '../../common/gurads/api-key.guard';
->>>>>>> 13c3acdb88aed68b530b0b40f5855c1243fecd80
 import { PortfolioItem } from './schemas/portfolio.schema';
 
 @ApiTags('portfolio')

@@ -12,11 +12,9 @@ import {
 import { ApiTags, ApiOperation, ApiResponse, ApiSecurity, ApiQuery } from '@nestjs/swagger';
 import { SkillsService } from './skills.service';
 import { CreateSkillDto } from './dto/create-skill.dto';
-<<<<<<< HEAD
-import { ApiKeyGuard } from '../../common/guards/api-key.guard';
-=======
+
 import { ApiKeyGuard } from '../../common/gurads/api-key.guard';
->>>>>>> 13c3acdb88aed68b530b0b40f5855c1243fecd80
+
 
 @ApiTags('skills')
 @Controller('skills')
